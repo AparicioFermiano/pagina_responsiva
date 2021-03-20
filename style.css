@@ -1,0 +1,117 @@
+:root{
+    --color-primary: #2E3E51;
+    --color-secundary: #1BBC9C;
+    --color-base: #E9FFF3;
+    --color-base2: #808080;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+p, a, li{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--color-primary); 
+    color: var(--color-base);
+    padding: 1% 0;
+}
+.nav p{
+   font-weight:900;
+   font-size: 1.5em;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-primary); 
+    color: var(--color-base);
+    padding: 1% 0;
+}
+.navegacao{
+    display:inline-flex;
+    font-size: 100%;
+    font-weight: 600;
+    margin: 0;
+    align-items: center;
+}
+.navegacao li, a{
+    padding: 0 10%;
+    list-style: none;
+    color: var(--color-base);
+    text-decoration: none;
+    margin: 0;
+}
+.container{
+    background-color: var(--color-secundary);
+    display:block;
+    text-align: center;
+    padding: 2% 0;
+}
+.container h1{
+    font-weight:900;
+    font-size: 600%;
+    color: var(--color-base);
+    margin: 0;
+}
+.container p{
+    font-weight:400;
+    font-size: 200%;
+    color: var(--color-base);
+    margin: 0;
+    padding: 2%;
+}
+img{
+    max-width: 30%;
+}
+.consultar{
+    background-color: var(--color-base);
+    padding: 3% 20% 20%;
+    color: var(--color-base2);
+    font-size: 120%;
+}
+.consultar p{
+    font-weight:900;
+    font-size: 230%;
+    color: var(--color-primary);
+    text-align: center;
+    padding-bottom:3%;
+}
+label{
+    margin: 10% 0;
+}
+input{
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #9e9e9e;
+    outline: 0;
+    padding: 1%;
+    font-size: 150%;
+    color: var(--color-primary);
+}
+input:focus {
+  border-bottom: 2px solid var(--color-secundary);  
+}
+.consultar button{
+    font-size: 100%;
+    padding: 2%;
+    border-style: none;
+    background-color: var(--color-secundary);
+    border-radius: 10px;
+    color: var(--color-base);
+    font-weight: 600;
+}
+.consultar button:hover{
+    color: var(--color-primary);
+
+}
+.input-caixa{
+    padding: 2% 0 2% 0;
+}
+
+
+
