@@ -20,9 +20,12 @@ header{
     color: var(--color-base);
     padding: 1% 0;
 }
-.nav p{
+.nav, .nav p{
    font-weight:900;
-   font-size: 1.5em;
+   font-size:2vmax;
+   justify-content: center;
+   padding: 0;
+   margin: 0;
 }
 .navbar{
     display: flex;
@@ -33,45 +36,48 @@ header{
 }
 .navegacao{
     display:inline-flex;
-    font-size: 100%;
+    font-size: 1.2vmax;
     font-weight: 600;
     margin: 0;
-    align-items: center;
+    justify-content: center;  
 }
-.navegacao li, a{
-    padding: 0 10%;
+.navegacao li, .navegacao a{
+    padding: 0;
     list-style: none;
     color: var(--color-base);
     text-decoration: none;
     margin: 0;
 }
-.container{
+.navegacao a:hover{
+    color: var(--color-secundary);
+}
+.container-img{
     background-color: var(--color-secundary);
     display:block;
     text-align: center;
-    padding: 2% 0;
+    padding: 5% 0;
 }
-.container h1{
+.container-img h1{
     font-weight:900;
-    font-size: 600%;
+    font-size: 5vmax;
     color: var(--color-base);
     margin: 0;
 }
-.container p{
+.container-img p{
     font-weight:400;
-    font-size: 200%;
+    font-size: 2vmax;
     color: var(--color-base);
     margin: 0;
     padding: 2%;
 }
-img{
-    max-width: 30%;
+.img{
+    max-width: 40%;
 }
 .consultar{
     background-color: var(--color-base);
     padding: 3% 20% 20%;
     color: var(--color-base2);
-    font-size: 120%;
+    font-size: 1.5vmax;
 }
 .consultar p{
     font-weight:900;
@@ -107,10 +113,10 @@ input:focus {
 }
 .consultar button:hover{
     color: var(--color-primary);
-
 }
-.input-caixa{
+.input-caixa, .input-caixa label{
     padding: 2% 0 2% 0;
+    margin: 0;
 }
 
 
